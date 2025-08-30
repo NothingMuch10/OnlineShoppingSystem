@@ -59,9 +59,6 @@ This README summarizes the **functional** and **non-functional** requirements th
 - Payment Processing Service
 - Analytics & Reporting Service
 
-> _Optional_: Add a diagram here (e.g., `/docs/architecture.png`) and reference it:
-> ![Architecture](docs/architecture.png)
-
 ## Technology Stack
 - **Spring Boot**, **Spring MVC / REST**
 - **Spring Data JPA**
