@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Products | BuzzBuy</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <div class="container mt-3">
+    <h2 class="mb-4">Explore Our Products</h2>
+    <div class="row">
+
+      <!-- Clothing -->
+      <div class="col-md-4 mb-4 product-card" data-category="Clothing">
+        <div class="card card-sh h-100">
+          <img src="images/pant.png" class="card-img-top" alt="Clothing">
+          <div class="card-body">
+            <h5 class="card-title">T-Shirt</h5>
+            <p class="card-text">Soft cotton crew neck.</p>
+            <p><strong>₹599</strong></p>
+            <a href="view_product.html" class="btn btn-outline-primary btn-sm">View Details</a>
+            <button class="btn btn-success btn-sm add-to-cart"
+              data-product='{"name":"T-Shirt","category":"Clothing","price":599}'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Electronics -->
+      <div class="col-md-4 mb-4 product-card" data-category="Electronics">
+        <div class="card card-sh h-100">
+          <img src="images/laptop.jpg" class="card-img-top" alt="Laptop">
+          <div class="card-body">
+            <h5 class="card-title">Laptop</h5>
+            <p class="card-text">Portable and powerful.</p>
+            <p><strong>₹25000</strong></p>
+            <a href="view_product.html" class="btn btn-outline-primary btn-sm">View Details</a>
+            <button class="btn btn-success btn-sm add-to-cart"
+              data-product='{"name":"Laptop","category":"Electronics","price":25000}'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 product-card" data-category="Electronics">
+        <div class="card card-sh h-100">
+          <img src="images/mobile.png" class="card-img-top" alt="Smartphone">
+          <div class="card-body">
+            <h5 class="card-title">Smartphone</h5>
+            <p class="card-text">Feature-packed Android phone.</p>
+            <p><strong>₹18000</strong></p>
+            <a href="view_product.html" class="btn btn-outline-primary btn-sm">View Details</a>
+            <button class="btn btn-success btn-sm add-to-cart"
+              data-product='{"name":"Smartphone","category":"Electronics","price":18000}'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Furniture -->
+      <div class="col-md-4 mb-4 product-card" data-category="Furniture">
+        <div class="card card-sh h-100">
+          <img src="images/furniture.jpg" class="card-img-top" alt="Sofa">
+          <div class="card-body">
+            <h5 class="card-title">Sofa</h5>
+            <p class="card-text">Comfy 3-seater.</p>
+            <p><strong>₹12000</strong></p>
+            <a href="view_product.html" class="btn btn-outline-primary btn-sm">View Details</a>
+            <button class="btn btn-success btn-sm add-to-cart"
+              data-product='{"name":"Sofa","category":"Furniture","price":12000}'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food -->
+      <div class="col-md-4 mb-4 product-card" data-category="Food">
+        <div class="card card-sh h-100">
+          <img src="images/grocery.jpg" class="card-img-top" alt="Food">
+          <div class="card-body">
+            <h5 class="card-title">Snack Box</h5>
+            <p class="card-text">Mixed treats pack.</p>
+            <p><strong>₹299</strong></p>
+            <a href="view_product.html" class="btn btn-outline-primary btn-sm">View Details</a>
+            <button class="btn btn-success btn-sm add-to-cart"
+              data-product='{"name":"Snack Box","category":"Food","price":299}'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

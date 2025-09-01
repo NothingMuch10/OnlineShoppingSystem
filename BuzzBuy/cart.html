@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shopping Cart | BuzzBuy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div class="container mt-3">
+    <h2 class="text-center mb-4">🛒 Your Cart</h2>
+
+    <div class="table-responsive">
+      <table class="table align-middle text-center">
+        <thead class="table-primary">
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Qty</th>
+            <th>Line Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body"></tbody>
+      </table>
+    </div>
+
+    <div id="cart-summary" class="d-flex justify-content-between align-items-center mt-3">
+      <button id="clear-cart" class="btn btn-warning">🧹 Clear Cart</button>
+      <h4>Total: ₹<span id="totalAmount">0</span></h4>
+      <button class="btn btn-success">✅ Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <div id="footer" class="mt-5"></div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
